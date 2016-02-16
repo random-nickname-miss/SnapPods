@@ -1,0 +1,28 @@
+{
+  "name": "SnapOperationQueue",
+  "version": "0.6.1",
+  "summary": "Like NSOperationQueue, but with grouping, prioritizing and re-prioritizing of operations",
+  "description": "SnapOperationQueue is made to resemble NSOperationQueue and has options to quickly rearrange the queued priorities",
+  "homepage": "https://github.com/skylib/SnapOperationQueue",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
+  "authors": [
+    "Niklas Saers"
+  ],
+  "social_media_url": "http://twitter.com/snapsale_com",
+  "source": {
+    "git": "https://github.com/skylib/SnapOperationQueue.git",
+    "commit": "dbb7a927307aafdef2cfd51c1143ba3466d45324"
+  },
+  "platforms": {
+    "ios": 8.0
+  },
+  "source_files": "SnapOperationQueue/*.swift",
+  "frameworks": "Foundation",
+  "exclude_files": "Example*",
+  "dependencies": {
+	  "PSOperations": [ "2.1.0" ]
+  }
+}
