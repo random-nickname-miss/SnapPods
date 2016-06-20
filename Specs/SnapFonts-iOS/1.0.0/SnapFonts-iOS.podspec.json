@@ -1,0 +1,27 @@
+{
+  "name": "SnapFonts-iOS",
+  "version": "1.0.0",
+  "summary": "Custom fonts used in Snapsale's iOS app",
+  "homepage": "https://github.com/skylib",
+  "license": {
+    "type": "PRIVATE",
+    "file": "README.md"
+  },
+  "authors": {
+    "Gaute Solheim": "gaute@snapsale.com"
+  },
+  "social_media_url": "http://twitter.com/snapsale_com",
+  "source": {
+    "git": "https://github.com/skylib/SnapFonts-iOS.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": 8.0
+  },
+  "source_files": "SnapFonts.swift",
+  "resource_bundles": {
+    "Fonts": "Fonts/*.otf"
+  },
+  "frameworks": "UIKit",
+  "requires_arc": true
+}
