@@ -19,7 +19,9 @@
     "ios": 9.0
   },
   "resources": [
-    "SnapImagePicker/**/*.{storyboard,xcassets,xib}"
+    "SnapImagePicker/**/*.{storyboard,xcassets,xib}",
+    "SnapImagePicker/**/*.strings",
+    "SnapImagePicker/**/*.png"
   ],
   "source_files": [
     "SnapImagePicker/**/*.{swift}"
@@ -27,11 +29,11 @@
   "exclude_files": "**/AppDelegate.{*}",
   "frameworks": [
     "UIKit",
-    "XCTest",
     "Photos"
   ],
   "requires_arc": true,
   "dependencies": {
-   "SnapFonts-iOS": [ ]
+   "SnapFonts-iOS": [ ],
+   "DORateLimit": [ ]
   }
 }
