@@ -23,6 +23,6 @@
   "frameworks": "Foundation",
   "exclude_files": "Example*",
   "dependencies": {
-	  "PSOperations"
+	  "PSOperations": [ ]
   }
 }
